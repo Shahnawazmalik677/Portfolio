@@ -1,0 +1,93 @@
+.about{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.middleContent{
+    display: flex;
+    position: absolute;
+    margin-left: 450px;
+}
+.details{
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgba(244,236,230,1);
+    width: 20vw;
+    height: 50vh;
+    margin-top: 170px;
+}
+.leftBackground{
+
+    background-color:rgba(230,218,206,1);
+    height:90vh;
+    width:70vh;
+    position: absolute;
+}
+.image{
+
+    width: 205px;
+    height:205px;
+    border-radius: 50%;
+}
+
+.aboutme{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30vw;
+    height: 50vh;
+    margin-left: 25px;
+    margin-top: 160px;
+    /* background-color: aquamarine; */
+}
+.text1{
+
+    font-size: 100px;
+    font: normal normal bold 100px/1.4em poppins-semibold,poppins,sans-serif;
+}
+.text2{
+    font-size: 25px;
+    font:  25px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+  width: 11vw;
+  height: 4vh;
+  font:14px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+  background-color: white;
+  border-radius: 35px;
+}
+.middleContent{
+    font:17px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+}
+
+.name{
+    font:normal normal bold 27px/1.4em poppins-semibold,poppins,sans-serif;
+}
+.role{
+    margin-top: 25px;
+    font:normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+}
+
+.button:hover{
+
+    background-color: rgb(7, 7, 243);
+    
+    color: white;
+}
+.social{
+    display: flex;
+    background-color: white;
+    justify-content:space-around;
+    align-items: center;
+    width: 20vw;
+    height:10vh;
+    margin-top: 80px;
+}

@@ -4,6 +4,7 @@
     text-align: center;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 6vh;
 }
 .text{
     font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
@@ -14,7 +15,7 @@
 .icons{
     display: flex;
     margin-left: 500px;
-    width: 15vw;
+    width: 12vw;
     padding: 20px;
     justify-content: space-around;
 }

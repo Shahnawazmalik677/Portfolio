@@ -15,7 +15,7 @@
     flex-direction: column;
     align-items:center;
     background-color: rgba(244,236,230,1);
-    width: 20vw;
+    width: 21vw;
     height: 50vh;
     margin-top: 170px;
 }
@@ -31,6 +31,7 @@
     width: 205px;
     height:205px;
     border-radius: 50%;
+    padding-top: 40px;
 }
 
 .aboutme{
@@ -55,14 +56,17 @@
 }
 .buttons{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
 }
 .button{
-  width: 11vw;
+  width: 8vw;
   height: 4vh;
   font:14px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
-  background-color: white;
+  background-color:blue;
+  color: white;
   border-radius: 35px;
+  margin-left: 5px;
+ 
 }
 .middleContent{
     font:17px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
@@ -77,17 +81,17 @@
 }
 
 .button:hover{
-
-    background-color: rgb(7, 7, 243);
-    
-    color: white;
+    background-color:white;
+    border: 2px solid blue;
+    color: black;
 }
 .social{
     display: flex;
     background-color: white;
     justify-content:space-around;
     align-items: center;
-    width: 20vw;
+    width: 21vw;
     height:10vh;
-    margin-top: 80px;
+    margin-top: 40px;
+    padding-top: 5px;
 }
